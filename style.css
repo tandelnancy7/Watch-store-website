@@ -130,6 +130,15 @@
         margin-top: 70px;
         padding: 0 40px;
     }
+
+    .header-row{
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 70px;
+    }
     
     .col-2 {
         flex-basis: 50%;
@@ -630,6 +639,10 @@ a {
     
 
     @media (max-width: 426px) {
+
+        .header{
+            height: auto;
+        }
 
         .categories-row{
             grid-template-columns: repeat(1,1fr);
