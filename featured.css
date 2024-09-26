@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing:border-box;
+    }
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .header {
+        background: radial-gradient(#fae1b3, #cccbcb);
+        height: auto;
+    }
+
+    .categories{
+        margin: 70px 0;
+        
+    }
+    .col-3{
+        flex-basis: 30%;
+        min-width: 250px;
+        margin-bottom: 30px;
+    }
+    .col-3 img{
+        width: 100%;
+    }
+    
+    .small-container{
+        max-width: 1080px;
+        margin: auto;
+       padding: 0 25px;
+    }
+
+    .row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .categories-h1{
+        text-align: center;
+        margin-bottom: 35px;
+    }
